@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-custom{
+    margin-right: -100px;
+}
+
+.btn-success, .btn-secondary{
+    display: none;
+    margin-left: 20px;
+}
+
+@media (max-width: 769px){
+    .col-md-2, .col-md-6, .col-md-8{
+        margin-bottom: 15px;
+    }
+
+    .btn-custom{
+        margin-left: -20px;
+    }
+}
